@@ -7,15 +7,26 @@ dotenv.config({path: `./env/.env.${envName}`});
 
 export default defineConfig({
 
+   // 1. Total timeout for each individual test (Default: 30000ms)
+  timeout: 60_000, 
+
+  // 2. Total timeout for the entire test suite run (Default: 0 / none)
+  //globalTimeout: 120_000, 
+
+  // 3. Timeout for assertions like expect(locator).toBeVisible() (Default: 5000ms)
+  // expect: {
+  //   timeout: 10_000,
+  // },
+
   testDir: './tests',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  //  reporter: [
-  //   ['html'],
-  //   ['allure-playwright']
-  // ],
+   reporter: [
+    ['html'],
+    ['allure-playwright']
+  ],
   use: {
 
     // browserName= 'chromium',
