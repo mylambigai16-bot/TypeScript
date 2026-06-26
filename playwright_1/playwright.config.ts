@@ -27,7 +27,7 @@ export default defineConfig({
     ['html'],
     ['allure-playwright']
   ],
-  testMatch:['tests/selenium-playground/Confirmation.test.ts'],
+  //testMatch:['tests/selenium-playground/Confirmation.test.ts'],
   use: {
 
     // browserName= 'chromium',
