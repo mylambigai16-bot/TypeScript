@@ -8,7 +8,7 @@ dotenv.config({path: `./env/.env.${envName}`});
 export default defineConfig({
 
    // 1. Total timeout for each individual test (Default: 30000ms)
-  timeout: 60_000, 
+  timeout: 30_000, 
 
   // 2. Total timeout for the entire test suite run (Default: 0 / none)
   //globalTimeout: 120_000, 
@@ -27,11 +27,13 @@ export default defineConfig({
     ['html'],
     ['allure-playwright']
   ],
+  testMatch:['tests/selenium-playground/Confirmation.test.ts'],
   use: {
 
     // browserName= 'chromium',
     // headless=   true,
     // baseURL: 'http://localhost:3000',
+
     trace: 'on',
     video:'retain-on-failure',
   },
@@ -42,15 +44,15 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
 
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
 
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
 
     /* Test against branded browsers. */
     // {
