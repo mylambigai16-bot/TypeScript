@@ -1,7 +1,7 @@
 import {test as myTest,expect} from '@playwright/test'
 
 myTest("Window Handling", async({page, context})=>{
-    await page.goto("https://demoqa.com/browser-windows",{waitUntil:"networkidle"})
+    await page.goto("https://demoqa.com/browser-windows")
 
     console.log("Current url: "+page.url)
 

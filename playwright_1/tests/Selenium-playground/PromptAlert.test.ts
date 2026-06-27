@@ -9,6 +9,6 @@ test("alerts",async({page})=>{
     })
 
     await page.locator("(//button[text()='Click Me'])[3]").click()
-    await expect(page.locator("prompt-demo")).toContainText("myl")
+    await expect(page.locator("#prompt-demo")).toContainText("myl")
     
 })
