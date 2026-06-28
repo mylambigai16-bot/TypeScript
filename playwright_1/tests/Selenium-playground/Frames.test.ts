@@ -2,7 +2,7 @@ import { test as mytest, expect } from "@playwright/test";
 
 mytest("iframes", async ({ page }) => {
 
-    await page.goto("https://letcode.in/frame", {waitUntil: "networkidle"});
+    await page.goto("https://letcode.in/frame");
 
     const frames = page.frames();
     console.log("Frames: " + frames.length);

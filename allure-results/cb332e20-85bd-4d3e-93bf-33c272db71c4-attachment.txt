@@ -1,0 +1,6 @@
+Current url: url() {
+        return this._mainFrame.url();
+      }
+https://demoqa.com/sample
+Heading: [object Promise]
+First window url: https://demoqa.com/browser-windows

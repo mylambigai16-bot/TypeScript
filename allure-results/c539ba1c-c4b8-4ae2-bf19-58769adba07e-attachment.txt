@@ -1,0 +1,10 @@
+Current url: https://demoqa.com/browser-windows
+Number of pages: 3
+----------------
+URL: https://demoqa.com/browser-windows
+----------------
+URL: https://demoqa.com/sample
+Heading: This is a sample page
+----------------
+URL: https://demoqa.com/sample
+Heading: This is a sample page
