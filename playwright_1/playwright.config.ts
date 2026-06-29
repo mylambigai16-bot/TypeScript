@@ -7,6 +7,9 @@ dotenv.config({path: `./env/.env.${envName}`});
 
 export default defineConfig({
 
+  //repeatEach:3,
+
+
    // 1. Total timeout for each individual test (Default: 30000ms)
   timeout: 30_000, 
 
@@ -20,18 +23,18 @@ export default defineConfig({
 
   testDir: './tests',
   fullyParallel: true,
-  forbidOnly: !!process.env.CI,
+  //forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 1 : 4,
    reporter: [
     ['html',{open:"never"}],
     ['allure-playwright']
   ],
-  //testMatch:['tests/selenium-playground/Confirmation.test.ts'],
+  //testMatch:['tests/Leaf-ground/DragTo.spec.ts'],
   use: {
 
     // browserName= 'chromium',
-    // headless=   true,
+     //headless: false,
     // baseURL: 'http://localhost:3000',
 
     trace: 'on',

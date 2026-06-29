@@ -18,4 +18,4 @@ mytest("iframes", async ({ page }) => {
 
     await innerFrame.locator("input[name='email']").fill("mugan@gmail.com");
 
-});
+}); 
