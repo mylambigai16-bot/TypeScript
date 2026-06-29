@@ -24,7 +24,7 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
    reporter: [
-    ['html'],
+    ['html',{open:"never"}],
     ['allure-playwright']
   ],
   //testMatch:['tests/selenium-playground/Confirmation.test.ts'],
@@ -35,7 +35,7 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     trace: 'on',
-    video:'retain-on-failure',
+    video:'on',
   },
 
   projects: [  
