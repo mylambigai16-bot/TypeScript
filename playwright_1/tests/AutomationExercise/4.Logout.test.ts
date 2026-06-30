@@ -1,7 +1,7 @@
 import {chromium,test,expect} from "@playwright/test"
 
 test("Web element commands",async()=>{
-    //test.setTimeout(70_000);
+    test.setTimeout(70_000);
     const browser = await chromium.launch()
     const context =  await browser.newContext()
     const page =  await context.newPage()

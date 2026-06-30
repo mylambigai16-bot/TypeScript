@@ -15,16 +15,14 @@ if (!box) {
     
     await page.mouse.move(
         box.x + box.width / 2,
-        box.y + box.height / 2
-    );
+        box.y + box.height / 2);
 
     await page.mouse.down();
 
     await page.mouse.move(
         box.x + box.width / 2 - 100,
         box.y + box.height / 2,
-        { steps: 20 }
-    );
+        { steps: 20 });
 
     await page.mouse.up();
 }

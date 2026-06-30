@@ -11,6 +11,7 @@ test("Key press", async({page})=>{
     await input.click()
     await input.focus()
     await expect(input).toBeFocused();
+    //await page.waitForTimeout(5000)
     await input.click()
 
     await input.press("Enter");

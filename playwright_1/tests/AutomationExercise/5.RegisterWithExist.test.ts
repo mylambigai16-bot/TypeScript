@@ -14,6 +14,5 @@ test("Web element commands",async()=>{
     await page.getByPlaceholder("Name").fill("mailu")
     await page.locator("form[action='/signup']").getByPlaceholder("Email Address").pressSequentially("mugan@gmail.com")
     await page.locator("button[data-qa='signup-button']").click()
-
     await expect(page.locator("//p[text()='Email Address already exist!']")).toBeVisible()
 })

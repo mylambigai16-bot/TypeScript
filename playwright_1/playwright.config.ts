@@ -10,13 +10,13 @@ export default defineConfig({
   //repeatEach:3,
 
 
-   // 1. Total timeout for each individual test (Default: 30000ms)
+   // (Default: 30000ms)
   timeout: 30_000, 
 
-  // 2. Total timeout for the entire test suite run (Default: 0 / none)
-  //globalTimeout: 120_000, 
+  //(Default: 0 )
+  //globalTimeout: 300_000, 
 
-  // 3. Timeout for assertions like expect(locator).toBeVisible() (Default: 5000ms)
+  //(Default: 5000ms)
   // expect: {
   //   timeout: 10_000,
   // },

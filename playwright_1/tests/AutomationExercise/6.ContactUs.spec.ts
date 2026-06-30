@@ -20,7 +20,6 @@ test("Contact us", async({page})=>{
 
     await page.locator("input[type='submit']").click()
 
-
     const success = await page.locator("div.status.alert.alert-success")
     await expect(success).toBeVisible();
     console.log(success.textContent())
