@@ -11,6 +11,7 @@ test("Key press", async({page})=>{
     await input.click()
     await input.focus()
     await expect(input).toBeFocused();
+    await input.click()
 
     await input.press("Enter");
     await input.pressSequentially("Hello")

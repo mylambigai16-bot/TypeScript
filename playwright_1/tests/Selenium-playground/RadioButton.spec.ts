@@ -7,12 +7,17 @@ test.beforeEach("Before test", async({page})=>{
 
 test("Radio button", async({page})=>{
 
-    await page.locator("(//input[@value='Female'])[1]").check()
+    const button = page.locator("(//input[@value='Female'])[1]")
+    await expect(button).toBeEnabled()
+    await button.check()
+    await expect(button).not.toBeChecked();
+    await button.check()
     await page.locator("#buttoncheck").click()
     await expect(page.locator("//button[@id='buttoncheck']/following-sibling::p")).toContainText("Female")
     const button1 = page.locator("input[value='RadioButton1']")
-    await expect(await button1).toBeEnabled()
+    await expect(button1).toBeEnabled()
     await button1.check()
+    
 
     const button2 = page.locator("input[value='RadioButton2']")
     await expect(await button2).toBeEnabled()
