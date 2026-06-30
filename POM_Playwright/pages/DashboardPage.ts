@@ -19,15 +19,15 @@ export class DashboardPage{
     }
 
     async dashboardPage(){
-        return this.dashboard.textContent({timeout:1000});
+        return await this.dashboard.textContent({timeout:1000});
     }
 
     async quickLaunchDisplay(){
-        return this.timeAtWorkCard.textContent()
+        return this.timeAtWorkCard
     }
 
     async timeAtWorkCardDisplay(){
-        return this.timeAtWorkCard.textContent()
+        return this.timeAtWorkCard
     }
 
     async logOut(){

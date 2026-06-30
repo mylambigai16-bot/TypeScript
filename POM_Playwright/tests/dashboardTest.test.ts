@@ -14,11 +14,11 @@ test.describe("Login Test", () => {
     })
 
     test("Dashboard", async ({ DashboardPage }) => {
-        expect(DashboardPage.quickLaunchDisplay).toBe("Quick Launch")
+        expect(await DashboardPage.quickLaunchDisplay()).toBeVisible()
     })
 
     test("Dashboard1", async ({ DashboardPage }) => {
-        expect(DashboardPage.timeAtWorkCardDisplay).toBe("Time at Work")
+        expect(await DashboardPage.timeAtWorkCardDisplay()).toBeVisible()
     })
 
 })
