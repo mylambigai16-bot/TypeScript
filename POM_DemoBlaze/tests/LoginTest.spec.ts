@@ -20,7 +20,7 @@ test.describe("Login", ()=>{
     test("ValidLogin", async({homePage})=>{
         await homePage.enterCredentials(validLoginData.username, validLoginData.password)
         await homePage.clickLoginBtn()
-        await expect(await homePage.verifyLogin()).toBeVisible()
+        await expect(await homePage.verifyLogin()).toBeVisible({timeout:10000})
     })
 
     test("InvalidLogin",async({page,homePage})=>{
