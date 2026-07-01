@@ -18,6 +18,10 @@ constructor(page: Page){
     this.nameOfUser = page.locator("#nameofuser")
 }
 
+async navigate(){
+    await this.page.goto(process.env.base_url!)
+}
+
 async enterCredentials(username: string, password: string){
     await this.login_link.click()
     await this.username.fill(username)

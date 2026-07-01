@@ -1,0 +1,3 @@
+type,username,password
+invalid,admin,admin123
+blank,  ,admin
