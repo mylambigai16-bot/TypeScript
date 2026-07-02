@@ -24,7 +24,7 @@ export class RegisterPage{
         this.confirmPassword = page.locator("input[id='input-password']")
         this.checkBox = page.locator("input[type='checkbox']")
         this.continue = page.locator("input[value='Continue']")
-        this.createdMessage = page.locator("(//h1)[2]")
+        this.createdMessage = page.locator("(//h1[text()='Your Account Has Been Created!']")
     }
 
     async fillForm(fname:string, lname:string, email:string,phone:string,password:string,confirmPassword:string){

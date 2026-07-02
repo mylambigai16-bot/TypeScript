@@ -13,16 +13,14 @@ test.describe("FireFox", ()=>{
         expect(url).toBe("https://www.bing.com/")
 
         const copiletInnerText = await page.locator("//div[text()='Copilot']").innerText()
-        const searchbar =  page.locator("div[class='sb_form_c   ']")
-        const attribute = await searchbar.getAttribute("id")
+        const searchbar =  page.locator("//textarea[@id='sb_form_q']")
+        const attribute = await searchbar.getAttribute("aria-label")
         console.log(attribute)
          
-        const search = page.locator("textarea[id='sb_form_q']");
+       // const search = page.locator("textarea[id='sb_form_q']");
 
-        await search.pressSequentially("playwright")
+        await searchbar.pressSequentially("playwright")
         await page.keyboard.press("Enter")
-
-        await page.waitForLoadState("domcontentloaded");
 
         await page.locator("(//div[@class='b_tpcn'])[1]").click()
 

@@ -1,6 +1,6 @@
 import { expect } from '@playwright/test';
 import { test } from "../fixtures/basFixture.js"
-import registerData from '../testData/registerData.json' with {type:'json'}
+import registerData from '../testData/registerData.json'
 
 test.describe("Resgistering @smoke", ()=>{
    test.beforeEach("Before test", async ({ homePage }) => {

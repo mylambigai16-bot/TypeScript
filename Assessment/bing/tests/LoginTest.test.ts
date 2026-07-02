@@ -12,16 +12,15 @@ test.describe("Login @regression", ()=>{
     })
 
     test("Valid Login @regression", async ({ loginPage }) => {
-        await loginPage.login(users[1]!.username, users[1]!.password)
+        await loginPage.login(users[0]!.email, users[0]!.password)
         
     })
 
-    for(let i=2; i<4 ; i++){
+    for(let i=1; i<3 ; i++){
     test(`InvalidLogin${i}`, async({loginPage})=>{
-        await loginPage.login(users[i]!.username, users[i]!.password)
+        await loginPage.login(users[i]!.email, users[i]!.password)
         await expect(await loginPage.invalidError()).toBeVisible()
     })
 }
-
 
 })

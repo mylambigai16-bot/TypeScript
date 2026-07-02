@@ -4,7 +4,7 @@ import {parse} from "csv-parse/sync"
 
 export interface LoginUser{
   
-    username: string
+    email: string
     password: string
 }
 
