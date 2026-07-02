@@ -16,21 +16,21 @@ export default defineConfig({
     ['allure-playwright']
   ],
   use: {
-    headless:false,
+    headless:true,
     trace: 'on-first-retry',
   },
 
   projects: [
     
-    {
-      name: 'chromium',
-      use: { ...devices['Desktop Chromium'] },
-    },
-
     // {
-    //   name: 'firefox',
-    //   use: { ...devices['Desktop Firefox'] },
+    //   name: 'chromium',
+    //   use: { ...devices['Desktop Chromium'] },
     // },
+
+    {
+      name: 'firefox',
+      use: { ...devices['Desktop Firefox'] },
+    },
 
     // {
     //   name: 'webkit',

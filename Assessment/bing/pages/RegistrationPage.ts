@@ -1,6 +1,6 @@
 import { Page, Locator } from '@playwright/test';
 
-export class RegisterPage{
+export class RegisterPage {
 
     readonly page: Page
     readonly firstname: Locator
@@ -14,20 +14,20 @@ export class RegisterPage{
     readonly createdMessage: Locator
 
 
-    constructor(page:Page){
+    constructor(page: Page) {
         this.page = page
         this.firstname = page.locator("input[id='input-firstname']")
         this.lastname = page.locator("input[id='input-lastname']")
         this.email = page.locator("input[id='input-email']")
         this.phone = page.locator("input[id='input-telephone']")
         this.password = page.locator("input[id='input-password']")
-        this.confirmPassword = page.locator("input[id='input-password']")
+        this.confirmPassword = page.locator("input[id='input-confirm']")
         this.checkBox = page.locator("input[type='checkbox']")
         this.continue = page.locator("input[value='Continue']")
-        this.createdMessage = page.locator("(//h1[text()='Your Account Has Been Created!']")
+        this.createdMessage = page.locator("//h1[text()='Your Account Has Been Created!']")
     }
 
-    async fillForm(fname:string, lname:string, email:string,phone:string,password:string,confirmPassword:string){
+    async fillForm(fname: string, lname: string, email: string, phone: string, password: string, confirmPassword: string) {
         await this.firstname.fill(fname)
         await this.lastname.fill(lname)
         await this.email.fill(email)
@@ -38,7 +38,7 @@ export class RegisterPage{
         await this.continue.click()
     }
 
-    async verifyMsg(){
+    async verifyMsg() {
         return this.createdMessage
     }
 }

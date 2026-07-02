@@ -1,39 +1,47 @@
-import {Page, Locator} from "@playwright/test"
+import { Page, Locator } from "@playwright/test"
 
-export class Homepage{
+export class Homepage {
 
-    readonly page:Page
-    readonly my_acc : Locator
-    readonly registerLink : Locator
-    readonly loginLink : Locator
-    readonly searchBar : Locator
+    readonly page: Page
+    readonly my_acc: Locator
+    readonly registerLink: Locator
+    readonly loginLink: Locator
+    readonly searchBar: Locator
+    readonly searchIcon: Locator
 
-    constructor(page:Page){
+
+    constructor(page: Page) {
         this.page = page,
         this.my_acc = page.locator("a[title='My Account']")
-        this.registerLink = page.getByRole("link",{name: "Register"})
-        this.loginLink = page.getByRole("link",{name:"Login"})
+        this.registerLink = page.getByRole("link", { name: "Register" })
+        this.loginLink = page.getByRole("link", { name: "Login" })
         this.searchBar = page.locator("input[name='search']")
+        this.searchIcon = page.locator("button[class='btn btn-default btn-lg']")
+        
     }
 
-    async navigate(url:string){
-        await this.page.goto(url)
+    async navigate() {
+        await this.page.goto("https://tutorialsninja.com/demo")
     }
 
-    async clickMyAcc(){
+    async clickMyAcc() {
         await this.my_acc.click()
     }
 
-    async clickReg(){
+    async clickReg() {
         await this.registerLink.click()
     }
 
-    async clickLogin(){
+    async clickLogin() {
         await this.loginLink.click()
     }
 
-    async searching(searchPro:string){
+    async searching(searchPro: string) {
         await this.searchBar.fill(searchPro)
+    }
+
+    async clcikSearchIcon(){
+        await this.searchIcon.click()
     }
 }
 

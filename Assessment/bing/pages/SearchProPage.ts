@@ -1,15 +1,17 @@
-import {Page, Locator} from "@playwright/test"
+import { Page, Locator } from "@playwright/test"
 
-export class SearchPage{
+export class SearchPage {
     readonly page: Page
-    
-    constructor(page: Page){
+    readonly proList: Locator
+
+    constructor(page: Page) {
         this.page = page
-        
+        this.proList = page.locator("//h4")
+
     }
 
-    async login(email:string, password: string){
-        
+    async listProduct() {
+        return this.proList
     }
 
 }

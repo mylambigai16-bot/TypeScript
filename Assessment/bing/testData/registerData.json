@@ -1,9 +1,10 @@
-{
-        "fname":"mugan",
-        "lname":"M",
-        "email":"mu06@gmail.com",
-        "phone":"7410852963",
-        "password":"123456",
-        "confirm":"123456"
+  {
+    "fname": "mugan",
+    "lname": "M",
+    "email": "mugan936@gmail.com",
+    "phone": "7410852963",
+    "password": "123456",
+    "confirm": "123456",
+    "product": "mac book"
 
-}
+  }

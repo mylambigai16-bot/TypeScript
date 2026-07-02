@@ -1,10 +1,10 @@
 import { expect } from '@playwright/test';
-import { test } from "../fixtures/basFixture.js"
+import { test } from "../fixtures/basFixture"
 import registerData from '../testData/registerData.json'
 
 test.describe("Resgistering @smoke", ()=>{
    test.beforeEach("Before test", async ({ homePage }) => {
-        await homePage.navigate("https://tutorialsninja.com/demo")
+        await homePage.navigate()
         await homePage.clickMyAcc()
         await homePage.clickReg()
     })
@@ -13,7 +13,7 @@ test.describe("Resgistering @smoke", ()=>{
         await registerPage.fillForm(registerData.fname,registerData.lname,
             registerData.email,registerData.phone,registerData.password,registerData.confirm)
 
-        expect(await registerPage.verifyMsg()).toBeVisible()
+        await expect(await registerPage.verifyMsg()).toBeVisible()
         
     })
 
