@@ -8,7 +8,7 @@ Feature: Registeration
     Scenario: Valid registration
         And the user enter Firstname as "shamdoe"
         And the user enter lastname as "Davis"
-        And the user enter email as "davya@yahoo.com"
+        And the user enter email as "davya12@yahoo.com"
         And the user enter telephone as "9087654321"
         And the user enter password as "12345"
         And the user enter confirm password as "12345"
