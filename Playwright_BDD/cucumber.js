@@ -1,12 +1,11 @@
 module.exports = {
     default: {
-        requireModule: ["ts-node/register"],
+        requiredModule: ["ts-node/register"],
 
         require: [
             'src/test/steps/**/*.ts',
-            'src/hooks/hooks.ts',
-            'src/test/support/**/*.ts',
-            'src/hooks/world.ts'
+            'src/test/hooks/**/*.ts',
+            'src/test/support/**/*.ts'
         ],
 
         "formatOptions":{
@@ -18,14 +17,12 @@ module.exports = {
         ],
 
         publishQuiet: true,
-        dryRun: false,
+        dryRun: true,
 
         format: [
-            "progress-bar",
-            "json:reports/cucumber-report.json",
-            "html:reports/cucumber-report.html"
+            "progress",
+            "json: reports/cucumber-report.json"
         ]
-        
 
     }
 }
