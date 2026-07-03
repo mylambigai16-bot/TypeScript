@@ -6,16 +6,15 @@ module.exports = {
             'src/test/steps/**/*.ts',
             'src/hooks/hooks.ts',
             'src/test/support/**/*.ts',
-            'src/hooks/world.ts'
+            'src/hooks/world/**/*.ts'
+        ],
+        paths:[
+            'src/test/features/**/*.feature'
         ],
 
         "formatOptions":{
             "snippetInterface":"async-await",
         },
-
-        paths:[
-            'src/test/features/**/*.feature'
-        ],
 
         publishQuiet: true,
         dryRun: false,

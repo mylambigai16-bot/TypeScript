@@ -1,0 +1,258 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "registeration;valid-registration",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Valid registration",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the application",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1344900,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'open')\n    at World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\steps\\register.ts:6:17)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user click Register link",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Firstname",
+                      "lastname",
+                      "email",
+                      "telephone",
+                      "password",
+                      "confirmPassword"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "shamdoe",
+                      "Davis",
+                      "doedavis@yahoo.com",
+                      "9087654321",
+                      "12345",
+                      "12345"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enter the following details",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user click the privacy policy",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user click continue button",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user should able register successfully",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "registeration;invalid-registration-with-existing-username",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Invalid registration with Existing username",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the application",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 645499,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'open')\n    at World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\steps\\register.ts:6:17)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user click Register link",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Firstname",
+                      "lastname",
+                      "email",
+                      "telephone",
+                      "password",
+                      "confirmPassword"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "shamdoe",
+                      "Davis",
+                      "doedavis@yahoo.com",
+                      "9087654321",
+                      "12345",
+                      "12345"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the user enter the following details",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the user click the privacy policy",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the user click continue button",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:24"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the user should able to see the error message",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "registeration",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Registeration",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\register.feature"
+  }
+]

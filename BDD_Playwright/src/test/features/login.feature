@@ -11,7 +11,7 @@ Feature: User Authentication tests
         When the user click login button
         Then the login should be successful
 
-    Scenario: Login should be success
+    Scenario: Login should be fail
         And User enter the email as "ShamDoel"
         And User enter the password as "123456"
         When the user click login button
