@@ -9,7 +9,7 @@ Feature: Registeration
     Scenario: Valid registration
         And the user enter the following details
             | Firstname | lastname | email              | telephone  | password | confirmPassword |
-            | shamdoe   | Davis    | doedavi71@yahoo.com | 9087654321 | 12345    | 12345           |
+            | shamdoe   | Davis    | doedavi7010@yahoo.com | 9087654321 | 12345    | 12345           |
         And the user click the privacy policy
         When the user click continue button
         Then the user should able register successfully
