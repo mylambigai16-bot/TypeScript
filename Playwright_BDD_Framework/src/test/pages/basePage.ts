@@ -4,7 +4,7 @@ import {logger} from "../utils/Logger"
 export class BasePage {
     constructor(protected page: Page) { }
 
-    async Click(locator: string) {
+    async click(locator: string) {
         logger.info(`Clicking: ${locator}`);
         await this.page.locator(locator).click();
     }

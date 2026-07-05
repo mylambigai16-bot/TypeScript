@@ -1,0 +1,166 @@
+[2026-07-05T17:30:29.240Z]INFO - Browser starting....
+[2026-07-05T17:30:30.144Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T17:30:33.895Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T17:30:33.992Z]INFO - Clicking: //a[text()='Register']
+[2026-07-05T17:30:34.391Z]INFO - Clicking: #input-firstname
+[2026-07-05T17:30:35.256Z]INFO - Clicking: #input-lastname
+[2026-07-05T17:30:35.282Z]INFO - Clicking: #input-email
+[2026-07-05T17:30:35.304Z]INFO - Clicking: #input-telephone
+[2026-07-05T17:30:35.322Z]INFO - Clicking: #input-password
+[2026-07-05T17:30:35.341Z]INFO - Clicking: #input-confirm
+[2026-07-05T17:30:35.386Z]INFO - Clicking: //input[@type='submit']
+[2026-07-05T17:30:36.175Z]INFO - Clicking: //h1[text()='Your Account Has Been Created!']
+[2026-07-05T17:30:41.422Z]ERROR - Scenario FAILED: Valid registration
+[2026-07-05T17:30:41.422Z]ERROR - Screenshot saved: report/screenshots/1783272641194.png
+[2026-07-05T17:30:41.676Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T17:30:44.283Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T17:30:44.368Z]INFO - Clicking: //a[text()='Register']
+[2026-07-05T17:30:44.760Z]INFO - Clicking: #input-firstname
+[2026-07-05T17:30:45.638Z]INFO - Clicking: #input-lastname
+[2026-07-05T17:30:45.661Z]INFO - Clicking: #input-email
+[2026-07-05T17:30:45.684Z]INFO - Clicking: #input-telephone
+[2026-07-05T17:30:45.705Z]INFO - Clicking: #input-password
+[2026-07-05T17:30:45.726Z]INFO - Clicking: #input-confirm
+[2026-07-05T17:30:45.777Z]INFO - Clicking: //input[@type='submit']
+[2026-07-05T17:30:46.620Z]INFO - Clicking: .alert.alert-danger.alert-dismissible
+[2026-07-05T17:30:46.658Z]INFO - Scanrio PASSED: Invalid registration with Existing username
+[2026-07-05T17:30:46.714Z]INFO - Closing Browser...!
+[2026-07-05T17:32:09.149Z]INFO - Browser starting....
+[2026-07-05T17:32:09.928Z]ERROR - Scenario FAILED: Valid registration
+[2026-07-05T17:32:09.928Z]ERROR - Screenshot saved: report/screenshots/1783272729686.png
+[2026-07-05T17:32:10.208Z]ERROR - Scenario FAILED: Invalid registration with Existing username
+[2026-07-05T17:32:10.209Z]ERROR - Screenshot saved: report/screenshots/1783272730157.png
+[2026-07-05T17:32:10.250Z]INFO - Closing Browser...!
+[2026-07-05T17:32:21.983Z]INFO - Browser starting....
+[2026-07-05T17:32:22.720Z]ERROR - Scenario FAILED: Valid registration
+[2026-07-05T17:32:22.721Z]ERROR - Screenshot saved: report/screenshots/1783272742479.png
+[2026-07-05T17:32:23.005Z]ERROR - Scenario FAILED: Invalid registration with Existing username
+[2026-07-05T17:32:23.005Z]ERROR - Screenshot saved: report/screenshots/1783272742954.png
+[2026-07-05T17:32:23.048Z]INFO - Closing Browser...!
+[2026-07-05T17:32:54.551Z]INFO - Browser starting....
+[2026-07-05T17:32:55.402Z]ERROR - Scenario FAILED: Valid registration
+[2026-07-05T17:32:55.402Z]ERROR - Screenshot saved: report/screenshots/1783272775155.png
+[2026-07-05T17:32:55.700Z]ERROR - Scenario FAILED: Invalid registration with Existing username
+[2026-07-05T17:32:55.701Z]ERROR - Screenshot saved: report/screenshots/1783272775639.png
+[2026-07-05T17:32:55.744Z]INFO - Closing Browser...!
+[2026-07-05T17:33:55.665Z]INFO - Browser starting....
+[2026-07-05T17:33:56.201Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T17:33:58.589Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T17:33:58.662Z]INFO - Clicking: //a[text()='Register']
+[2026-07-05T17:33:59.048Z]INFO - Clicking: #input-firstname
+[2026-07-05T17:33:59.904Z]INFO - Clicking: #input-lastname
+[2026-07-05T17:33:59.920Z]INFO - Clicking: #input-email
+[2026-07-05T17:33:59.952Z]INFO - Clicking: #input-telephone
+[2026-07-05T17:33:59.975Z]INFO - Clicking: #input-password
+[2026-07-05T17:33:59.996Z]INFO - Clicking: #input-confirm
+[2026-07-05T17:34:00.067Z]INFO - Clicking: //input[@type='submit']
+[2026-07-05T17:34:00.875Z]INFO - Clicking: //h1[text()='Your Account Has Been Created!']
+[2026-07-05T17:34:06.106Z]ERROR - Scenario FAILED: Valid registration
+[2026-07-05T17:34:06.106Z]ERROR - Screenshot saved: report/screenshots/1783272845889.png
+[2026-07-05T17:34:06.335Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T17:34:09.031Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T17:34:09.088Z]INFO - Clicking: //a[text()='Register']
+[2026-07-05T17:34:09.463Z]INFO - Clicking: #input-firstname
+[2026-07-05T17:34:09.813Z]INFO - Clicking: #input-lastname
+[2026-07-05T17:34:09.836Z]INFO - Clicking: #input-email
+[2026-07-05T17:34:09.859Z]INFO - Clicking: #input-telephone
+[2026-07-05T17:34:09.880Z]INFO - Clicking: #input-password
+[2026-07-05T17:34:09.906Z]INFO - Clicking: #input-confirm
+[2026-07-05T17:34:09.968Z]INFO - Clicking: //input[@type='submit']
+[2026-07-05T17:34:10.417Z]INFO - Clicking: .alert.alert-danger.alert-dismissible
+[2026-07-05T17:34:10.454Z]INFO - Scanrio PASSED: Invalid registration with Existing username
+[2026-07-05T17:34:10.507Z]INFO - Closing Browser...!
+[2026-07-05T17:35:20.981Z]INFO - Browser starting....
+[2026-07-05T17:35:21.503Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T17:35:24.430Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T17:35:24.521Z]INFO - Clicking: //a[text()='Register']
+[2026-07-05T17:35:24.920Z]INFO - Clicking: #input-firstname
+[2026-07-05T17:35:25.773Z]INFO - Clicking: #input-lastname
+[2026-07-05T17:35:25.788Z]INFO - Clicking: #input-email
+[2026-07-05T17:35:25.820Z]INFO - Clicking: #input-telephone
+[2026-07-05T17:35:25.840Z]INFO - Clicking: #input-password
+[2026-07-05T17:35:25.862Z]INFO - Clicking: #input-confirm
+[2026-07-05T17:35:25.934Z]INFO - Clicking: //input[@type='submit']
+[2026-07-05T17:35:27.425Z]INFO - Clicking: //h1[text()='Your Account Has Been Created!']
+[2026-07-05T17:35:27.451Z]INFO - Scanrio PASSED: Valid registration
+[2026-07-05T17:35:27.675Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T17:35:30.098Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T17:35:30.161Z]INFO - Clicking: //a[text()='Register']
+[2026-07-05T17:35:30.522Z]INFO - Clicking: #input-firstname
+[2026-07-05T17:35:30.853Z]INFO - Clicking: #input-lastname
+[2026-07-05T17:35:30.867Z]INFO - Clicking: #input-email
+[2026-07-05T17:35:30.892Z]INFO - Clicking: #input-telephone
+[2026-07-05T17:35:30.911Z]INFO - Clicking: #input-password
+[2026-07-05T17:35:30.927Z]INFO - Clicking: #input-confirm
+[2026-07-05T17:35:30.973Z]INFO - Clicking: //input[@type='submit']
+[2026-07-05T17:35:31.695Z]INFO - Clicking: .alert.alert-danger.alert-dismissible
+[2026-07-05T17:35:31.729Z]INFO - Scanrio PASSED: Invalid registration with Existing username
+[2026-07-05T17:35:31.785Z]INFO - Closing Browser...!
+[2026-07-05T18:38:45.911Z]INFO - Browser starting....
+[2026-07-05T18:38:46.478Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T18:38:49.024Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T18:38:49.092Z]INFO - Clicking: //a[text()='Login']
+[2026-07-05T18:38:49.498Z]INFO - Clicking: input[id='input-email']
+[2026-07-05T18:38:49.537Z]INFO - Clicking: input[id='input-password']
+[2026-07-05T18:38:49.552Z]INFO - Clicking: input[value='Login']
+[2026-07-05T18:38:51.164Z]INFO - Scanrio PASSED: Valid Login
+[2026-07-05T18:38:51.445Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T18:38:54.223Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T18:38:54.299Z]INFO - Clicking: //a[text()='Login']
+[2026-07-05T18:38:54.716Z]INFO - Clicking: input[id='input-email']
+[2026-07-05T18:38:54.752Z]INFO - Clicking: input[id='input-password']
+[2026-07-05T18:38:54.777Z]INFO - Clicking: input[value='Login']
+[2026-07-05T18:38:55.868Z]ERROR - Scenario FAILED: Invalid Login
+[2026-07-05T18:38:55.868Z]ERROR - Screenshot saved: report/screenshots/1783276735632.png
+[2026-07-05T18:38:55.921Z]INFO - Closing Browser...!
+[2026-07-05T18:43:20.686Z]INFO - Browser starting....
+[2026-07-05T18:43:21.298Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T18:43:23.883Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T18:43:23.962Z]INFO - Clicking: //a[text()='Login']
+[2026-07-05T18:43:24.383Z]INFO - Clicking: input[id='input-email']
+[2026-07-05T18:43:24.421Z]INFO - Clicking: input[id='input-password']
+[2026-07-05T18:43:24.434Z]INFO - Clicking: input[value='Login']
+[2026-07-05T18:43:25.687Z]INFO - Scanrio PASSED: Valid Login
+[2026-07-05T18:43:25.953Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T18:43:29.747Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T18:43:29.823Z]INFO - Clicking: //a[text()='Login']
+[2026-07-05T18:43:30.252Z]INFO - Clicking: input[id='input-email']
+[2026-07-05T18:43:30.290Z]INFO - Clicking: input[id='input-password']
+[2026-07-05T18:43:30.311Z]INFO - Clicking: input[value='Login']
+[2026-07-05T18:43:31.287Z]INFO - Clicking: div[class='alert alert-danger alert-dismissible']
+[2026-07-05T18:43:31.327Z]INFO - Scanrio PASSED: Invalid Login
+[2026-07-05T18:43:31.383Z]INFO - Closing Browser...!
+[2026-07-05T18:44:00.418Z]INFO - Browser starting....
+[2026-07-05T18:44:00.982Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T18:44:03.715Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T18:44:03.798Z]INFO - Clicking: //a[text()='Login']
+[2026-07-05T18:44:04.273Z]INFO - Clicking: input[id='input-email']
+[2026-07-05T18:44:04.309Z]INFO - Clicking: input[id='input-password']
+[2026-07-05T18:44:04.320Z]INFO - Clicking: input[value='Login']
+[2026-07-05T18:44:05.353Z]INFO - Scanrio PASSED: Valid Login
+[2026-07-05T18:44:05.609Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T18:44:08.311Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T18:44:08.385Z]INFO - Clicking: //a[text()='Login']
+[2026-07-05T18:44:08.835Z]INFO - Clicking: input[id='input-email']
+[2026-07-05T18:44:08.871Z]INFO - Clicking: input[id='input-password']
+[2026-07-05T18:44:08.900Z]INFO - Clicking: input[value='Login']
+[2026-07-05T18:44:09.991Z]INFO - Clicking: div[class='alert alert-danger alert-dismissible']
+[2026-07-05T18:44:10.015Z]INFO - Scanrio PASSED: Invalid Login
+[2026-07-05T18:44:10.073Z]INFO - Closing Browser...!
+[2026-07-05T18:44:24.322Z]INFO - Browser starting....
+[2026-07-05T18:44:24.886Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T18:44:27.296Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T18:44:27.431Z]INFO - Clicking: //a[text()='Login']
+[2026-07-05T18:44:27.853Z]INFO - Clicking: input[id='input-email']
+[2026-07-05T18:44:27.905Z]INFO - Clicking: input[id='input-password']
+[2026-07-05T18:44:27.924Z]INFO - Clicking: input[value='Login']
+[2026-07-05T18:44:28.900Z]INFO - Scanrio PASSED: Valid Login
+[2026-07-05T18:44:29.137Z]INFO - Clicking: https://tutorialsninja.com/demo/
+[2026-07-05T18:44:31.557Z]INFO - Clicking: //span[@class='caret']
+[2026-07-05T18:44:31.621Z]INFO - Clicking: //a[text()='Login']
+[2026-07-05T18:44:32.049Z]INFO - Clicking: input[id='input-email']
+[2026-07-05T18:44:32.094Z]INFO - Clicking: input[id='input-password']
+[2026-07-05T18:44:32.116Z]INFO - Clicking: input[value='Login']
+[2026-07-05T18:44:33.135Z]INFO - Clicking: div[class='alert alert-danger alert-dismissible']
+[2026-07-05T18:44:33.161Z]INFO - Scanrio PASSED: Invalid Login
+[2026-07-05T18:44:33.216Z]INFO - Closing Browser...!

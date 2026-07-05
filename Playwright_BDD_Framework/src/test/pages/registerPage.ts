@@ -1,5 +1,5 @@
 import { BasePage } from "./basePage"
-
+import { Page } from "playwright";
 export class RegisterPage extends BasePage {
     private fname = "#input-firstname"
     private lname = "#input-lastname"
@@ -12,6 +12,10 @@ export class RegisterPage extends BasePage {
     private RegisterSuccess = "//h1[text()='Your Account Has Been Created!']"
     private RegisterError = ".alert.alert-danger.alert-dismissible"
 
+    constructor(page: Page) {
+        super(page);
+    }
+
     async registerForm(Firstname: string, Lastname: string, email: string, telephone: string, password: string, confirmPassword: string) {
         await this.type(this.fname, Firstname)
         await this.type(this.lname, Lastname)
@@ -21,20 +25,20 @@ export class RegisterPage extends BasePage {
         await this.type(this.confirmPassword, confirmPassword)
     }
 
-    async clickCheckBox(){
+    async clickCheckBox() {
         await this.checkbox(this.privacy_checkbox)
     }
 
-    async clickSubmit(){
-        await this.Click(this.submit_btn)
+    async clickSubmit() {
+        await this.click(this.submit_btn)
     }
 
-    async verifyRegistration(){
+    async verifyRegistration() {
         //return this.page.locator(this.RegisterSuccess)
         return this.getText(this.RegisterSuccess)
     }
 
-    async failRegistration(){
+    async failRegistration() {
         return this.getText(this.RegisterError)
     }
 

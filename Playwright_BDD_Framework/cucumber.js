@@ -4,9 +4,9 @@ module.exports = {
 
         require: [
             'src/test/steps/**/*.ts',
-            'src/hooks/hooks.ts',
+            'src/test/hooks/hooks.ts',
             'src/test/support/**/*.ts',
-            'src/hooks/world/**/*.ts'
+            'src/test/world/customWorld.ts'
         ],
         paths:[
             'src/test/features/**/*.feature'
@@ -34,7 +34,7 @@ module.exports = {
             'src/test/steps/**/*.ts',
             'src/hooks/hooks.ts',
             'src/test/support/**/*.ts',
-            'src/hooks/world.ts'
+            'src/world/customWorld.ts'
         ],
 
         "formatOptions":{

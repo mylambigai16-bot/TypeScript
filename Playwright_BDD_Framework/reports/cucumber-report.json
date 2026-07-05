@@ -4,11 +4,19 @@
     "elements": [
       {
         "description": "",
-        "id": "registeration;valid-registration",
+        "id": "login-to-the-application;valid-login",
         "keyword": "Scenario",
-        "line": 8,
-        "name": "Valid registration",
+        "line": 10,
+        "name": "Valid Login",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 235010400
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -18,117 +26,115 @@
               "location": "src\\test\\steps\\register.ts:5"
             },
             "result": {
-              "status": "failed",
-              "duration": 1344900,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'open')\n    at World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\steps\\register.ts:6:17)"
+              "status": "passed",
+              "duration": 2407346700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "click on the My account link",
+            "match": {
+              "location": "src\\test\\steps\\login.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132310100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\login.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 422171400
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
-            "name": "the user click Register link",
+            "line": 11,
+            "name": "user enters valid email and password",
             "match": {
-              "location": "src\\test\\steps\\register.ts:9"
+              "location": "src\\test\\steps\\login.ts:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "Firstname",
-                      "lastname",
-                      "email",
-                      "telephone",
-                      "password",
-                      "confirmPassword"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "shamdoe",
-                      "Davis",
-                      "doedavis@yahoo.com",
-                      "9087654321",
-                      "12345",
-                      "12345"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "And ",
-            "line": 9,
-            "name": "the user enter the following details",
-            "match": {
-              "location": "src\\test\\steps\\register.ts:14"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 70399800
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "the user click the privacy policy",
+            "name": "click on Login button",
             "match": {
-              "location": "src\\test\\steps\\register.ts:20"
+              "location": "src\\test\\steps\\login.ts:19"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 13,
-            "name": "the user click continue button",
-            "match": {
-              "location": "src\\test\\steps\\register.ts:24"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 968076600
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 14,
-            "name": "the user should able register successfully",
+            "line": 13,
+            "name": "user should be login successfully",
             "match": {
-              "location": "src\\test\\steps\\register.ts:28"
+              "location": "src\\test\\steps\\login.ts:23"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 6318500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56075799
             }
           }
         ],
         "tags": [
           {
-            "name": "@smoke",
+            "name": "@login",
             "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 9
+          },
+          {
+            "name": "@valid",
+            "line": 9
           }
         ],
         "type": "scenario"
       },
       {
         "description": "",
-        "id": "registeration;invalid-registration-with-existing-username",
+        "id": "login-to-the-application;invalid-login",
         "keyword": "Scenario",
         "line": 16,
-        "name": "Invalid registration with Existing username",
+        "name": "Invalid Login",
         "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 175433399
+            }
+          },
           {
             "arguments": [],
             "keyword": "Given ",
@@ -138,121 +144,107 @@
               "location": "src\\test\\steps\\register.ts:5"
             },
             "result": {
-              "status": "failed",
-              "duration": 645499,
-              "error_message": "TypeError: Cannot read properties of undefined (reading 'open')\n    at World.<anonymous> (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\steps\\register.ts:6:17)"
+              "status": "passed",
+              "duration": 2418556799
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 6,
-            "name": "the user click Register link",
+            "name": "click on the My account link",
             "match": {
-              "location": "src\\test\\steps\\register.ts:9"
+              "location": "src\\test\\steps\\login.ts:7"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "Firstname",
-                      "lastname",
-                      "email",
-                      "telephone",
-                      "password",
-                      "confirmPassword"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "shamdoe",
-                      "Davis",
-                      "doedavis@yahoo.com",
-                      "9087654321",
-                      "12345",
-                      "12345"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "And ",
-            "line": 17,
-            "name": "the user enter the following details",
-            "match": {
-              "location": "src\\test\\steps\\register.ts:14"
-            },
-            "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 63700300
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 20,
-            "name": "the user click the privacy policy",
+            "line": 7,
+            "name": "click on the login link",
             "match": {
-              "location": "src\\test\\steps\\register.ts:20"
+              "location": "src\\test\\steps\\login.ts:11"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 425846900
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 21,
-            "name": "the user click continue button",
+            "line": 17,
+            "name": "user enters invalid email and password",
             "match": {
-              "location": "src\\test\\steps\\register.ts:24"
+              "location": "src\\test\\steps\\login.ts:27"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 66757200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "click on Login button",
+            "match": {
+              "location": "src\\test\\steps\\login.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1018811100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 22,
-            "name": "the user should able to see the error message",
+            "line": 19,
+            "name": "user should get the warning message",
             "match": {
-              "location": "src\\test\\steps\\register.ts:34"
+              "location": "src\\test\\steps\\login.ts:31"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 24792499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51435400
             }
           }
         ],
         "tags": [
           {
-            "name": "@smoke",
+            "name": "@login",
             "line": 1
+          },
+          {
+            "name": "@invalidlod",
+            "line": 15
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "registeration",
+    "id": "login-to-the-application",
     "line": 2,
     "keyword": "Feature",
-    "name": "Registeration",
+    "name": "Login to the application",
     "tags": [
       {
-        "name": "@smoke",
+        "name": "@login",
         "line": 1
       }
     ],
-    "uri": "src\\test\\features\\register.feature"
+    "uri": "src\\test\\features\\login.feature"
   }
 ]
