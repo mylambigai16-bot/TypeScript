@@ -7,9 +7,8 @@ import { BasePage } from '../pages/basePage';
 import { HomePage } from '../pages/homePage';
 import { RegisterPage } from '../pages/registerPage';
 import { LoginPage } from '../pages/loginPage';
-// import { BasePage } from '../pages/basePage';
-// import { HomePage } from '../pages/homePage';
-// import { RegisterPage } from '../pages/registerPage';
+import { SearchPage } from '../pages/searchPage';
+
 
 let browserName: any;
 
@@ -28,11 +27,13 @@ Before(async function (this: CustomWorld, scanrio) {
     this.homePage = new HomePage(this.page);
     this.registerPage = new RegisterPage(this.page);
     this.loginPage = new LoginPage(this.page)
+    this.searchPage = new SearchPage(this.page)
+
 })
 
 After(async function (this: CustomWorld, scanrio) {
     if (scanrio.result?.status === "FAILED") {
-        const path = `report/screenshots/${Date.now()}.png`
+        const path = `reports/screenshots/${Date.now()}.png`
         await this.page.screenshot({ path })
         logger.error((`Scenario FAILED: ${scanrio.pickle.name}`));
         logger.error(`Screenshot saved: ${path}`)

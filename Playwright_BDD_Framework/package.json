@@ -14,8 +14,14 @@
     "@cucumber/cucumber": "^13.0.0",
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.0",
-    "allure-playwright": "^3.10.2",
+    "allure-commandline": "^2.43.0",
+    "allure-cucumberjs": "^3.10.2",
+    "dotenv": "^17.4.2",
+    "multiple-cucumber-html-reporter": "^3.5.0",
     "ts-node": "^10.9.2",
     "winston": "^3.19.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.5.0"
   }
 }

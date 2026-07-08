@@ -23,7 +23,7 @@ export class LoginPage extends BasePage{
     }
 
     async loginVerify(){
-        return this.myAccText
+        return this.page.locator(this.myAccText)
     }
 
     async warningMessageVerify(){

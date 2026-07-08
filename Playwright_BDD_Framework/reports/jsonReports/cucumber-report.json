@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 201886899
+              "duration": 216213799
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "Launch the application",
             "match": {
-              "location": "src\\test\\steps\\register.ts:5"
+              "location": "src\\test\\steps\\register.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 2519195700
+              "duration": 1861103000
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 72385299
+              "duration": 222120200
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 424257900
+              "duration": 205683700
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46743000
+              "duration": 46751499
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1191104600
+              "duration": 1244885199
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7791400
+              "duration": 25613999
             }
           },
           {
@@ -100,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 70462600
+              "duration": 42641599
             }
           }
         ],
@@ -132,7 +132,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 189623099
+              "duration": 159805200
             }
           },
           {
@@ -141,11 +141,11 @@
             "line": 5,
             "name": "Launch the application",
             "match": {
-              "location": "src\\test\\steps\\register.ts:5"
+              "location": "src\\test\\steps\\register.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 3854231199
+              "duration": 1848766500
             }
           },
           {
@@ -158,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 66302400
+              "duration": 73016799
             }
           },
           {
@@ -171,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 376492899
+              "duration": 185380400
             }
           },
           {
@@ -184,7 +184,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62322700
+              "duration": 65028000
             }
           },
           {
@@ -197,7 +197,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1389762600
+              "duration": 1111885200
             }
           },
           {
@@ -210,7 +210,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23234599
+              "duration": 23071599
             }
           },
           {
@@ -218,7 +218,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 54913900
+              "duration": 37906999
             }
           }
         ],
@@ -262,7 +262,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 181758799
+              "duration": 166420799
             }
           },
           {
@@ -271,11 +271,11 @@
             "line": 5,
             "name": "Launch the application",
             "match": {
-              "location": "src\\test\\steps\\register.ts:5"
+              "location": "src\\test\\steps\\register.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 2389934600
+              "duration": 1903924600
             }
           },
           {
@@ -284,11 +284,11 @@
             "line": 6,
             "name": "the user click Register link",
             "match": {
-              "location": "src\\test\\steps\\register.ts:9"
+              "location": "src\\test\\steps\\register.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 448270600
+              "duration": 288443800
             }
           },
           {
@@ -307,12 +307,12 @@
                   },
                   {
                     "cells": [
-                      "shamdoe",
-                      "Davis",
-                      "doedavi701@yahoo.com",
-                      "9087654321",
-                      "12345",
-                      "12345"
+                      "emmawatson",
+                      "Kevin",
+                      "email",
+                      "6398520147",
+                      "123456",
+                      "123456"
                     ]
                   }
                 ]
@@ -322,11 +322,12 @@
             "line": 10,
             "name": "the user enter the following details",
             "match": {
-              "location": "src\\test\\steps\\register.ts:14"
+              "location": "src\\test\\steps\\register.ts:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 474316600
+              "status": "failed",
+              "duration": 144100899,
+              "error_message": "locator.fill: value: expected string, got undefined\n    at RegisterPage.type (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\pages\\basePage.ts:17:42)\n    at RegisterPage.registerForm (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\pages\\registerPage.ts:22:20)\n    at async CustomWorld.<anonymous> (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\steps\\register.ts:21:3)"
             }
           },
           {
@@ -335,11 +336,11 @@
             "line": 13,
             "name": "the user click the privacy policy",
             "match": {
-              "location": "src\\test\\steps\\register.ts:20"
+              "location": "src\\test\\steps\\register.ts:24"
             },
             "result": {
-              "status": "passed",
-              "duration": 56566399
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -348,11 +349,11 @@
             "line": 14,
             "name": "the user click continue button",
             "match": {
-              "location": "src\\test\\steps\\register.ts:24"
+              "location": "src\\test\\steps\\register.ts:28"
             },
             "result": {
-              "status": "passed",
-              "duration": 1333123199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -361,11 +362,11 @@
             "line": 15,
             "name": "the user should able register successfully",
             "match": {
-              "location": "src\\test\\steps\\register.ts:28"
+              "location": "src\\test\\steps\\register.ts:32"
             },
             "result": {
-              "status": "passed",
-              "duration": 32101599
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -373,7 +374,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 50273000
+              "duration": 249608100
             }
           }
         ],
@@ -409,7 +410,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 222244399
+              "duration": 165923699
             }
           },
           {
@@ -418,11 +419,11 @@
             "line": 5,
             "name": "Launch the application",
             "match": {
-              "location": "src\\test\\steps\\register.ts:5"
+              "location": "src\\test\\steps\\register.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 2622639400
+              "duration": 1934651599
             }
           },
           {
@@ -431,11 +432,11 @@
             "line": 6,
             "name": "the user click Register link",
             "match": {
-              "location": "src\\test\\steps\\register.ts:9"
+              "location": "src\\test\\steps\\register.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 471552899
+              "duration": 306840400
             }
           },
           {
@@ -454,12 +455,12 @@
                   },
                   {
                     "cells": [
-                      "shamdoe",
-                      "Davis",
-                      "doedavis@yahoo.com",
-                      "9087654321",
-                      "12345",
-                      "12345"
+                      "emmawatson",
+                      "Kevin",
+                      "emmawatson@yahoo.com",
+                      "6398520147",
+                      "123456",
+                      "123456"
                     ]
                   }
                 ]
@@ -469,11 +470,12 @@
             "line": 19,
             "name": "the user enter the following details",
             "match": {
-              "location": "src\\test\\steps\\register.ts:14"
+              "location": "src\\test\\steps\\register.ts:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 962703199
+              "status": "failed",
+              "duration": 149153499,
+              "error_message": "locator.fill: value: expected string, got undefined\n    at RegisterPage.type (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\pages\\basePage.ts:17:42)\n    at RegisterPage.registerForm (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\pages\\registerPage.ts:22:20)\n    at async CustomWorld.<anonymous> (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Playwright_BDD_Framework\\src\\test\\steps\\register.ts:21:3)"
             }
           },
           {
@@ -482,11 +484,11 @@
             "line": 22,
             "name": "the user click the privacy policy",
             "match": {
-              "location": "src\\test\\steps\\register.ts:20"
+              "location": "src\\test\\steps\\register.ts:24"
             },
             "result": {
-              "status": "passed",
-              "duration": 33198699
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -495,11 +497,11 @@
             "line": 23,
             "name": "the user click continue button",
             "match": {
-              "location": "src\\test\\steps\\register.ts:24"
+              "location": "src\\test\\steps\\register.ts:28"
             },
             "result": {
-              "status": "passed",
-              "duration": 650485300
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -508,11 +510,11 @@
             "line": 24,
             "name": "the user should able to see the error message",
             "match": {
-              "location": "src\\test\\steps\\register.ts:34"
+              "location": "src\\test\\steps\\register.ts:38"
             },
             "result": {
-              "status": "passed",
-              "duration": 46130600
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -520,7 +522,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 67500899
+              "duration": 130382700
             }
           }
         ],
@@ -556,5 +558,285 @@
       }
     ],
     "uri": "src\\test\\features\\register.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "product-search;search-products",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Search products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 170690600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the application",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2343775100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enters \"MacBook\" in the search field",
+            "match": {
+              "location": "src\\test\\steps\\search.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55356800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User clicks the search button",
+            "match": {
+              "location": "src\\test\\steps\\search.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277458800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should see searched \"MacBook\" in the search results",
+            "match": {
+              "location": "src\\test\\steps\\search.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38373199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42256900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search",
+            "line": 1
+          },
+          {
+            "name": "@valid",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "product-search;search-products",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Search products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162168099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the application",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1766352200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enters \"iPhone\" in the search field",
+            "match": {
+              "location": "src\\test\\steps\\search.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44136200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User clicks the search button",
+            "match": {
+              "location": "src\\test\\steps\\search.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226192299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should see searched \"iPhone\" in the search results",
+            "match": {
+              "location": "src\\test\\steps\\search.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35111099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44283800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search",
+            "line": 1
+          },
+          {
+            "name": "@valid",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "product-search;search-invalid-product",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Search invalid product",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 163733499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the application",
+            "match": {
+              "location": "src\\test\\steps\\register.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1996326799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User enters \"nike\" name in the search field",
+            "match": {
+              "location": "src\\test\\steps\\search.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79963899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User clicks the search button",
+            "match": {
+              "location": "src\\test\\steps\\search.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 186231099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User should see no products found message",
+            "match": {
+              "location": "src\\test\\steps\\search.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21247500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44154200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search",
+            "line": 1
+          },
+          {
+            "name": "@invalid",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "product-search",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Product Search",
+    "tags": [
+      {
+        "name": "@search",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\search.feature"
   }
 ]

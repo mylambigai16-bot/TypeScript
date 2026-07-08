@@ -8,17 +8,17 @@ Feature: Registeration
     @valid @smoke
     Scenario: Valid registration
         And the user enter the following details
-            | Firstname | lastname | email              | telephone  | password | confirmPassword |
-            | shamdoe   | Davis    | doedavi7010@yahoo.com | 9087654321 | 12345    | 12345           |
+            | Firstname  | lastname | email | telephone  | password | confirmPassword |
+            | emmawatson | Kevin    | email | 6398520147 | 123456   | 123456          |
         And the user click the privacy policy
         When the user click continue button
         Then the user should able register successfully
-        
+
     @invalid
     Scenario: Invalid registration with Existing username
         And the user enter the following details
-            | Firstname | lastname | email              | telephone  | password | confirmPassword |
-            | shamdoe   | Davis    | doedavis@yahoo.com | 9087654321 | 12345    | 12345           |
+            | Firstname  | lastname | email                | telephone  | password | confirmPassword |
+            | emmawatson | Kevin    | emmawatson@yahoo.com | 6398520147 | 123456   | 123456          |
         And the user click the privacy policy
         When the user click continue button
         Then the user should able to see the error message

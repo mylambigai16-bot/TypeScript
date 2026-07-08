@@ -12,8 +12,8 @@ export class HomePage extends BasePage {
     private registerLink = "//a[text()='Register']"
     private loginLink = "//a[text()='Login']"
 
-    async launchBrowser(url:string){
-        await this.open(url)
+    async launchBrowser(){
+        await this.open(process.env.BASE_URL!)
     }
     async clickMyAcc(){
         await this.click(this.myAccLink)

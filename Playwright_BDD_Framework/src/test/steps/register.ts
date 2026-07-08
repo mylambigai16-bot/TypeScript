@@ -1,9 +1,12 @@
 import {Given, When, Then} from "@cucumber/cucumber"
 import { CustomWorld } from "../world/customWorld";
 import {expect} from "@playwright/test"
+import { faker } from "@faker-js/faker";
 
 Given('Launch the application', async function (this: CustomWorld) {
-  await this.homePage.launchBrowser("https://tutorialsninja.com/demo/")
+  //await this.homePage.launchBrowser(process.env.BASE_URL!)
+  await this.homePage.launchBrowser()
+
 });
 
 When('the user click Register link', async function (this: CustomWorld) {
@@ -13,8 +16,9 @@ When('the user click Register link', async function (this: CustomWorld) {
 
 When('the user enter the following details', async function (this: CustomWorld,dataTable) {
   const reg = dataTable.hashes()[0]
-  
-  await this.registerPage.registerForm(reg.Firstname,reg.lastname,reg.email,reg.telephone,reg.password,reg.confirmPassword)
+  const email_data = reg[2]=="email"?faker.internet.email():reg[2]
+  console.log(email_data)
+  await this.registerPage.registerForm(reg.Firstname,reg.lastname,email_data,reg.telephone,reg.password,reg.confirmPassword)
 });
 
 When('the user click the privacy policy', async function (this: CustomWorld) {

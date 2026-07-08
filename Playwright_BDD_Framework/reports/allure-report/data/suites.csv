@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2980","Search products","","2026-07-06","passed","2026-07-06","","","",""
+"","3984","Invalid registration with Existing username","","2026-07-06","passed","2026-07-06","","","",""
+"","8986","Valid registration","","2026-07-06","broken","2026-07-06","","","",""
+"","2135","Search invalid product","","2026-07-06","passed","2026-07-06","","","",""
+"","2977","Search products","","2026-07-06","passed","2026-07-06","","","",""
+"","3326","Valid Login","","2026-07-06","passed","2026-07-06","","","",""
+"","3122","Invalid Login","","2026-07-06","passed","2026-07-06","","","",""

@@ -1,0 +1,302 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;login-with-valid-credential",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login with valid credential",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 191649100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user on the Homepage",
+            "match": {
+              "location": "src\\test\\steps\\registerSteps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4589762099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "click on the Login link",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 379005500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "enter email and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 872800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "click on the Login buttton",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 777400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user should login successfully",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 218897099,
+              "error_message": "locator.clear: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('input[id=\\'Password\\']')\u001b[22m\n\u001b[2m    - locator resolved to <input id=\"Password\" name=\"Password\" type=\"password\" class=\"password\"/>\u001b[22m\n\u001b[2m    - fill(\"\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    - waiting for navigation to finish...\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and editable\u001b[22m\n\n    at LoginPage.fill (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Assessment\\Playwright_Cucumber_Assessment\\src\\test\\pages\\basePage.ts:16:23)\n    at LoginPage.fillLoginForm (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Assessment\\Playwright_Cucumber_Assessment\\src\\test\\pages\\loginPage.ts:22:20)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-with-invalid-credential",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login with invalid credential",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 256651399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user on the Homepage",
+            "match": {
+              "location": "src\\test\\steps\\registerSteps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4575262099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "click on the Login link",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 399273499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "enter invalid email and password",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2528399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "click on the Login buttton",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1220400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user should get error message",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 441578999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 111692300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login feature",
+    "tags": [],
+    "uri": "src\\test\\feature\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-feature;register-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Register with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 189126599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user on the Homepage",
+            "match": {
+              "location": "src\\test\\steps\\registerSteps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4637833899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "user click on the register link",
+            "match": {
+              "location": "src\\test\\steps\\registerSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 450182100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "fill the mandatory field \"Mugan\",\"M\",\"mugan@gmail.com\",\"123456\" and \"ConfirmPassword\"",
+            "match": {
+              "location": "src\\test\\steps\\registerSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168247999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user click on Register button",
+            "match": {
+              "location": "src\\test\\steps\\registerSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36985500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "application displat the registration completed message",
+            "match": {
+              "location": "src\\test\\steps\\registerSteps.ts:22"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5005586799,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\Mylambigai\\VS code\\PlayWright\\Assessment\\Playwright_Cucumber_Assessment\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 134700199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register feature",
+    "tags": [],
+    "uri": "src\\test\\feature\\register.feature"
+  }
+]

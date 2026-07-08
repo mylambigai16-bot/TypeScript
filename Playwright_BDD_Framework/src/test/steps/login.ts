@@ -21,7 +21,7 @@ When('click on Login button', async function (this:CustomWorld) {
 });
 
 Then('user should be login successfully', async function (this:CustomWorld) {
-  await expect(await this.loginPage.loginVerify()).toContain("My Account")
+  await expect(await this.loginPage.loginVerify()).toHaveText("My Account")
 });
 
 When('user enters invalid email and password', async function (this:CustomWorld) {

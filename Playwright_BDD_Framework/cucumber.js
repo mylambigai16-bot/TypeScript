@@ -8,27 +8,31 @@ module.exports = {
             'src/test/support/**/*.ts',
             'src/test/world/customWorld.ts'
         ],
-        paths:[
+        paths: [
             'src/test/features/**/*.feature'
         ],
 
-        "formatOptions":{
-            "snippetInterface":"async-await",
+        "formatOptions": {
+            "snippetInterface": "async-await",
+            resultsDir: "reports/allure-results"
         },
 
         publishQuiet: true,
         dryRun: false,
 
         format: [
-            "progress-bar",
+            "summary",
+            "progress",
+            // "progress-bar",
             "json:reports/jsonReports/cucumber-report.json",
             "html:reports/htmlReports/cucumber-report.html",
+            "allure-cucumberjs/reporter",
             'rerun:@rerun.txt'
         ],
     },
 
-        rerun:{
-            requireModule: ["ts-node/register"],
+    rerun: {
+        requireModule: ["ts-node/register"],
 
         require: [
             'src/test/steps/**/*.ts',
@@ -37,11 +41,11 @@ module.exports = {
             'src/world/customWorld.ts'
         ],
 
-        "formatOptions":{
-            "snippetInterface":"async-await",
+        "formatOptions": {
+            "snippetInterface": "async-await",
         },
 
-        paths:[
+        paths: [
             './rerun.txt'
         ],
 
@@ -55,5 +59,5 @@ module.exports = {
             'rerun:@rerun.txt'
         ],
     }
-        
+
 }
